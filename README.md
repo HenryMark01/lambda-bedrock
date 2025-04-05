@@ -40,5 +40,5 @@ This repository documents my experience building and deploying a **serverless bl
 - Used **Postman** to invoke the endpoint with a request body like:
   ```json
   {
-    "blog_topic": "The Impact of AI in Education"
+    "blog_topic":"Machine Learning and Generative AI"
   }

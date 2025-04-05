@@ -1,7 +1,7 @@
 # ✍️🧠 Blog Generator using GenAI (Amazon Bedrock)
 
 ## Overview  
-![Architecture](./media/architecture.png)
+                                                                                      ![Architecture](./media/architecture.png)
 
 This repository documents my experience building and deploying a **serverless blog generation system** powered by **Amazon Bedrock’s LLaMA3 model**, using **AWS Lambda** and **S3** for AI-driven content creation and storage. The workflow is triggered via **API Gateway**, enabling seamless blog post generation based on user-supplied topics. This solution is designed to be lightweight, modular, and production-ready with minimal operational overhead.
 

@@ -1,4 +1,4 @@
-# ✍️ Blog Generator using Amazon Bedrock & AWS Lambda
+# ✍️🧠 Blog Generator using GenAI (Amazon Bedrock)
 
 ## Overview  
 ![Architecture](./media/architecture.png)

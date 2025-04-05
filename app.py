@@ -4,7 +4,7 @@ import json
 from datetime import datetime
 
 def blog_generate_using_bedrock(blogtopic:str)-> str:
-    prompt=f"""<s>[INST]Human: Write a 50 words blog on the topic {blogtopic}
+    prompt=f"""<s>[INST]Human: Write a 200 words blog on the topic {blogtopic}
     Assistant:[/INST]
     """
 

@@ -28,6 +28,7 @@ This repository documents my experience building and deploying a **serverless bl
 - Attached IAM policies to the Lambda role:
   - `bedrock:InvokeModel`
   - `s3:PutObject`
+    ![Architecture](./media/s3-object.png)
   - `logs:CreateLogGroup`, `logs:CreateLogStream`, `logs:PutLogEvents`
 
 ### 3. API Gateway Integration
@@ -38,7 +39,10 @@ This repository documents my experience building and deploying a **serverless bl
 ### 4. Staging & Testing
 - Created a **`dev` stage** for safe testing.
 - Used **Postman** to invoke the endpoint with a request body like:
+  ![Architecture](./media/postman.png)
   ```json
   {
     "blog_topic":"Machine Learning and Generative AI"
   }
+- Checked the logs on Cloudwatch.
+  ![Architecture](./media/log-events.png)

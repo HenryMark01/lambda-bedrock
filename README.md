@@ -9,7 +9,7 @@ This repository documents my experience building and deploying a **serverless bl
 
 ## 🔑 Key Benefits
 
-- **AI-Powered Writing:** Automatically generates 50-word blog content from any topic using LLaMA3 via Bedrock.
+- **AI-Powered Writing:** Automatically generates 200-word blog content from any topic using LLaMA3 via Bedrock.
 - **Serverless Architecture:** Built on Lambda with no infrastructure to manage—fully scalable and cost-efficient.
 - **Boto3 Layered Setup:** Uses a custom Lambda Layer to leverage the latest Boto3 and Botocore versions.
 - **Secure & Reliable:** Configured with proper IAM permissions and exception handling for robustness.
